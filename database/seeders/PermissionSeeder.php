@@ -54,7 +54,7 @@ class PermissionSeeder extends Seeder
         $user2=User::find(27);
         
         $user->assignRole('admin');
-        $user2->assignRole('guset');
+        $user2->assignRole('guest');
         
     }
 }
